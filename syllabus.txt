@@ -1,0 +1,58 @@
+O. Introduction to TypeScript
+    •What is TypeScript
+    •Benefits of TypeScript over JavaScript
+    •TypeScript vs JavaScript
+
+1. Basic Types
+    •Primitive types (number,string, boolean)
+    •Arrays
+    •Tuples
+    •Enums
+    •Any, Unknown, Void, Null, Undefined, Never
+
+2. Type Inferenqe
+    •Understanding type inference
+    •Type annotations
+    Never
+
+3. Interfaces and Type Aliases
+    •Defining interfaces
+    •Using interfaces to define object shapes
+    •Extending interfaces
+    •Type aliases
+    •Intersection types
+
+4. Classes and Objects
+    •Class definition
+    •Constructors
+    •Extending class
+    •Access modifiers (public, private, protected)
+    •Readonly properties
+    •Optional properties
+    •Parameter properties
+    •Getters and setters
+    •Static members
+    •Abstract classes and methods
+
+5. Functions
+    •Function types
+    •Optional and default parameters
+    •Rest parameters
+    •Overloads
+
+6. Generics
+    •Generic functions
+    •Generic interfaces
+    •Generic classes
+
+7. Modules
+    •Exporting and importing modules
+    •Default exports
+
+8. Type Assertion
+    •Type casting
+    •Non—null assertion operator
+
+9. Type Guards and TypeScript Utility Types
+    •Using typeof and instanceof
+    •Partial, Required, Readonly
