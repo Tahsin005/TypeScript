@@ -4,6 +4,7 @@ function abcd() {
 function abcdef(_name, _age, cb) {
   cb('hello');
 }
+// TODO Do this or that
 abcdef('tahsin', 23, function (arg) {
   console.log(arg);
 });
