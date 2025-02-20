@@ -1,36 +1,36 @@
 function abcd(): void {
-    console.log('Hi');
+  console.log('Hi');
 }
 
 function abcdef(name: string, age: number, cb: (arg: string) => void) {
-    cb('hello')
+  cb('hello')
 }
 
 abcdef('tahsin', 23, (arg: string) => {
-    console.log(arg);
+  console.log(arg);
 })
 
 // optional parameters
 function ghijkl(name: string, age?: number, gender: string = 'male or female r kichu hoile thabor dibo'): void {
-    console.log(name, age, gender);
+  console.log(name, age, gender);
 }
 
 ghijkl('tahsin', 23, 'male')
 ghijkl('lagbatak', 18);
 
 // rest parameters
-function mnopqrs(name: string, ...arr: number[]): void {
-    console.log(name, arr);
+function mnopqrs(namlange: string, ...arr: number[]): void {
+  console.log(name, arr);
 }
 
-mnopqrs('tahsin',1, 2, 3, 4, 5);
+mnopqrs('tahsin', 1, 2, 3, 4, 5);
 
 // function overloading
 function combine(input1: string, input2: string): string; // Concatenate strings
 function combine(input1: number, input2: number): number; // Add numbers
 
 function combine(input1: any, input2: any): any {
-    return input1 + input2;
+  return input1 + input2;
 }
 
 // Usage
