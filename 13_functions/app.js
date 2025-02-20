@@ -8,6 +8,8 @@ function abcdef(_name, _age, cb) {
 abcdef('tahsin', 23, function (arg) {
   console.log(arg);
 });
+
+
 // optional parameters
 function suiii(name, age, gender) {
   if (gender === void 0) { gender = 'male or female r kichu hoile thabor dibo'; }
