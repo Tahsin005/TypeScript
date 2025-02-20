@@ -34,4 +34,4 @@ var result1 = combine("Hello, ", "World!"); // "Hello, World!"
 var result2 = combine(10, 20); // 30
 // const result3 = combine("Hello, ", 10); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
 let resutl3 = combine('tahsin', 12);
-
+let result4 = combine('ferdous', 23);
